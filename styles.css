@@ -1,0 +1,167 @@
+
+.iconic{
+    width: 45px;
+    margin-top: -10px;
+}
+
+.lit{
+    color: aqua;
+}
+
+#allen{
+    text-align: center;
+}
+
+.para{
+    height: 300px;
+    width: 100%;
+    /* background-color: antiquewhite;
+ */
+}
+
+.media-container {
+    position: relative;
+}
+
+.video-hover {
+    left: 0;
+    opacity: 0;
+    overflow: visible;
+}
+
+.media-container:hover .video-hover {
+    opacity: 1;
+    transition: opacity 0.8s;
+    position: fixed;
+    top: -180px;
+    
+}
+.video{
+    object-fit: cover;
+}
+
+.moro, .moro2, .moro3, .moro4, .moro5, .moro6, .moro7, .moro8, .moro9, .moro10{
+    display: none;
+    top: 150px;
+    position: absolute;
+    width: 40%;
+    opacity: .8;
+    color: aliceblue;  
+    
+}
+.carousel-control-prev{
+    padding-right: 150px;
+
+}
+.carousel-control-next{
+    padding-left: 150px;
+}
+.container-fluid{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+
+
+
+/* ------from allen-------- */
+#head1.scrolled
+{
+    background-color: black;
+    border-bottom: 2px solid rgb(21, 21, 21);
+    transition: .5s;
+   
+    
+}
+.wrappers:hover .video-clip{
+    opacity: 1;
+    z-index: -1;
+    height: 300px;  
+    position: fixed;
+    transition: opacity 1s ease-in-out;
+    overflow: visible;
+ 
+}
+.wrappers:hover img{
+transform: scale(1.2);
+transition: all 1s ease;
+}
+.wrappers{
+overflow: hidden;
+}
+
+.video-clip {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0;
+}
+.video-clip-abc {
+    opacity: 1;
+    z-index: -2;
+    height: 300px;  
+    position: fixed;
+    transition: opacity 1s ease-in-out;
+    overflow: visible;
+}
+
+a{
+    color: aliceblue;
+    text-decoration: none;
+    
+   
+}
+.wrappers{
+margin-top:5px;
+padding: 0;
+color: aliceblue;
+background-color: none;
+
+
+}
+
+
+.darkbg{
+background-image: url(bgblack-01.png);
+background-repeat: repeat;
+/* background-color: black; */
+}
+.marimar{
+font-size: medium;
+}
+body{
+background-color: black;
+}
+img{
+object-fit: cover;
+margin-left: 10px;
+}
+.card-body{
+overflow: hidden;
+background-color: none;
+}
+.container-fluid{
+margin-top: 200px;
+}
+.marites{
+background-color: black;
+
+}
+h4{
+/* background-image: url(bgblack-01.png); */
+opacity: 1;
+color: aliceblue;
+}
+.row{
+/* background-color: aliceblue; */
+padding-left: 50px;
+padding-right: 50px;
+padding-top: 0px;
+padding-bottom: 0;
+}
+
+
+/* added */
